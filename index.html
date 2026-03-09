@@ -10,10 +10,10 @@
 
 <body>
     <header class="header">
-        <section class="header__brand">
+        <div class="header__brand">
             <h1 class="header__logo">LUM.UR</h1>
             <h2 class="header__site-title">Lumière Urbaine</h2>
-        </section>
+        </div>
         <nav class="header__nav">
             <a href="#">Programmation</a>
             <a href="#">Horaire</a>
@@ -29,8 +29,10 @@
         <div class="hero__content">
             <h1 class="hero__title--large">Lumière.urbaine</h1>
             <h2 class="hero__subtitle">3 jours de musique et d'art immersif</h2>
-            <button class="hero__button__primary">Acheter des billets</button>
-            <button class="hero__button__secondary">En savoir plus</button>
+            <div class="hero__button">
+                <button class="button__primary">Acheter des billets</button>
+                <button class="button__secondary">En savoir plus</button>
+            </div>
         </div>
     </section>
 
@@ -255,6 +257,8 @@
                         <div class="section__placeholder section__placeholder--round section__placeholder--gray">
                             <img src="./assets/tim-hortons.png" class="section__img"
                                 alt="Logo de Tim Hortons. Écriture cursive en rouge." />
+                        </div>
+                        <div class="section__item__footer">
                             <h2 class="section__item__title">Tim Hortons</h2>
                         </div>
                     </div>
@@ -266,7 +270,9 @@
                         <div class="section__placeholder section__placeholder--round section__placeholder--gray">
                             <img src="./assets/toysrus.png" class="section__img"
                                 alt="Logo de Toys R Us. Des lettres gonflées roses, oranges et vertes avec un R gigantesque troué par une étoile dans sa partie supérieure" />
-                            <h2 class="section__item__title">Toys "R" Us</h2>
+                            <div class="section__item__footer">
+                                <h2 class="section__item__title">Toys "R" Us</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -277,7 +283,9 @@
                         <div class="section__placeholder section__placeholder--round section__placeholder--gray">
                             <img src="./assets/walmart.png" class="section__img"
                                 alt="Logo de Walmart. Des traits jaunes traçant un cercle, symbolisant des éclats." />
-                            <h2 class="section__item__title">Walmart</h2>
+                            <div class="section__item__footer">
+                                <h2 class="section__item__title">Walmart</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -288,7 +296,9 @@
                         <div class="section__placeholder section__placeholder--round section__placeholder--gray">
                             <img src="./assets/mcdonald.png" class="section__img"
                                 alt="Logo de McDonald. Un M majuscule gigantesque jaune." />
-                            <h2 class="section__item__title">McDonald's</h2>
+                        </div>
+                        <div class="section__item__footer">
+                        <h2 class="section__item__title">McDonald's</h2>
                         </div>
                     </div>
                 </div>
@@ -336,13 +346,17 @@
                 <div class="section__row--form">
                     <form class="form">
                         <label>Nom</label>
-                        <input type="text" placeholder="Entrez votre nom" />
+                        <input type="text" placeholder="Entrez votre nom" class="form__placeholder" />
                         <label>Email</label>
-                        <input type="text" placeholder="Entrez votre email" />
+                        <input type="text" placeholder="Entrez votre email" class="form__placeholder" />
                         <label>Message</label>
-                        <input type="text" placeholder="Écrivez votre message ici" />
-                        <button class="form__button__secondary">Annuler</button>
-                        <button class="form__button__primary">Envoyer</button>
+                        <input type="text" placeholder="Écrivez votre message ici" class="form__placeholder" />
+                        <div class="form__button">
+                            <button class="button__secondary button__secondary--white button__secondary--outline-cyan">
+                                Annuler
+                            </button>
+                            <button class="button__primary--darker">Envoyer</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -357,4 +371,5 @@
         </nav>
     </footer>
 </body>
+
 </html>
