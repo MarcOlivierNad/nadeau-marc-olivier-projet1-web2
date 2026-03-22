@@ -15,23 +15,25 @@
             <h2 class="header__site-title">Lumière Urbaine</h2>
         </div>
         <nav class="header__nav">
-            <a href="#">Programmation</a>
-            <a href="#">Horaire</a>
-            <a href="#">Artistes</a>
-            <a href="#">Billets</a>
-            <a href="#">Partenaires</a>
-            <a href="#">Témoignages</a>
-            <a href="#">Contact</a>
-            <button class="nav__button">Obtenez vos billets</button>
+            <a href="#" class="nav__elements">Programmation</a>
+            <a href="#" class="nav__elements">Horaire</a>
+            <a href="#" class="nav__elements">Artistes</a>
+            <a href="#" class="nav__elements">Billets</a>
+            <a href="#" class="nav__elements">Partenaires</a>
+            <a href="#" class="nav__elements">Témoignages</a>
+            <a href="#" class="nav__elements">Contact</a>
         </nav>
+        <button class="button__cta">Obtenez vos billets</button>
     </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__title--large">Lumière.urbaine</h1>
+            <h2 class="hero__title">Lumière.urbaine</h2>
             <h2 class="hero__subtitle">3 jours de musique et d'art immersif</h2>
             <div class="hero__button">
-                <button class="button__primary">Acheter des billets</button>
                 <button class="button__secondary">En savoir plus</button>
+                <button class="button__cta--large button__secondary">
+                    Acheter des billets
+                </button>
             </div>
         </div>
     </section>
@@ -45,51 +47,50 @@
                 <div class="section__row">
                     <div class="section__card">
                         <div class="section__card__placeholder">
+                            <img class="section__card__img" src="./assets/vendredi.jpg"
+                                alt="Image d'un concert de rock pendant un festival à l'extérieur" />
                             <h2 class="section__card__tag">Jour 1</h2>
-                            <div class="section__card__footer">
-                                <h2 class="section__card__title">Vendredi</h2>
-                                <h2 class="section__card__subtitle">
-                                    Liste des performances du Vendredi
-                                </h2>
-                            </div>
+                        </div>
+                        <div class="section__card__footer">
+                            <h2 class="section__card__title">Vendredi</h2>
+                            <h2 class="section__card__subtitle">
+                                Liste des performances du Vendredi
+                            </h2>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
                     <div class="section__card">
                         <div class="section__card__placeholder">
                             <h2 class="section__card__tag">Jour 2</h2>
-                            <div class="section__card__footer">
-                                <h2 class="section__card__title">Samedi</h2>
-                                <h2 class="section__card__subtitle">
-                                    Liste des performances du Samedi
-                                </h2>
-                            </div>
+                            <img class="section__card__img" src="./assets/samedi.jpg"
+                                alt="Image d'un concert de rock pendant un festival à l'extérieur" />
+                        </div>
+                        <div class="section__card__footer">
+                            <h2 class="section__card__title">Samedi</h2>
+                            <h2 class="section__card__subtitle">
+                                Liste des performances du Samedi
+                            </h2>
+
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
                     <div class="section__card">
                         <div class="section__card__placeholder">
                             <h2 class="section__card__tag">Jour 3</h2>
-                            <div class="section__card__footer">
-                                <h2 class="section__card__title">Dimanche</h2>
-                                <h2 class="schedule__card__subtitle">
-                                    Liste des performances du Dimanche
-                                </h2>
-                            </div>
+                            <img class="section__card__img" src="./assets/dimanche.webp"
+                                alt="Image d'un concert d'une artiste féminine pendant un festival à l'extérieur " />
+                        </div>
+                        <div class="section__card__footer">
+                            <h2 class="section__card__title">Dimanche</h2>
+                            <h2 class="section__card__subtitle">
+                                Liste des performances du Dimanche
+                            </h2>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section--blue">
+        <section class="section section--blue section--side">
             <div class="section__header">
-                <h2 class="section__title section__title--side section__title--black">
+                <h2 class="section__title">
                     Horaire
                 </h2>
                 <h2 class="section__subtitle">
@@ -99,8 +100,8 @@
             <div class="section__list--vertical">
                 <div class="section__row--vertical">
                     <div class="section__article">
-                        <div class="section__placeholder--vertical">
-                            <img src="./assets/calendrier.svg" class="section__img"
+                        <div class="section__placeholder--smaller">
+                            <img src="./assets/calendrier.svg" class="section__img--small"
                                 alt="Symbole représentant un calendrier" />
                         </div>
                         <div class="section__article__header">
@@ -110,12 +111,9 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list--vertical">
-                <div class="section__row--vertical">
+
                     <div class="section__article">
-                        <div class="section__placeholder--vertical">
+                        <div class="section__placeholder--smaller">
                             <img src="./assets/calendrier.svg" class="section__img--small"
                                 alt="Symbole représentant un calendrier" />
                         </div>
@@ -128,24 +126,21 @@
                     </div>
                 </div>
             </div>
-            <div class="section__list--vertical">
-                <div class="section__row--vertical">
-                    <div class="section__article">
-                        <div class="section__placeholder--square">
-                            <img src="./assets/calendrier.svg" class="section__card--square"
-                                alt="Symbole représentant un calendrier" />
-                        </div>
-                        <div class="section__article__header">
-                            <h2 class="section__article__title">Samedi</h2>
-                            <p class="section__article__subtitle">
-                                Performances de 14h à 21h.
-                            </p>
-                        </div>
-                    </div>
+
+            <div class="section__article">
+                <div class="section__placeholder--smaller">
+                    <img src="./assets/calendrier.svg" class="section__img--small"
+                        alt="Symbole représentant un calendrier" />
+                </div>
+                <div class="section__article__header">
+                    <h2 class="section__article__title">Samedi</h2>
+                    <p class="section__article__subtitle">
+                        Performances de 14h à 21h.
+                    </p>
                 </div>
             </div>
         </section>
-        <section class="section--blue">
+        <section class="section">
             <div class="section__header">
                 <h2 class="section__title">Artistes</h2>
             </div>
@@ -153,52 +148,40 @@
                 <div class="section__row">
                     <div class="section__card--featured">
                         <div class="section__placeholder--smaller">
-                            <div class="section__card__footer">
-                                <h2 class="section__card__title">
-                                    Bob l'artiste favori des médias numériques
-                                </h2>
-                                <h2 class="section__card__subtitle">Genre : Folk</h2>
-                            </div>
+                        </div>
+                        <div class="section__card__footer">
+                            <h2 class="section__card__title">
+                                Bob l'artiste favori des médias numériques
+                            </h2>
+                            <h2 class="section__card__subtitle">Genre : Folk</h2>
+                        </div>
+                    </div>
+                    <div class="section__card--smallest">
+                        <div class="section__placeholder--smallest">
+                        </div>
+                        <div class="section__card__footer">
+                            <h2 class="section__card__title">
+                                George l'artiste émergeant très prometteur
+                            </h2>
+                            <h2 class="section__card__subtitle">Genre : Pop</h2>
+                        </div>
+                    </div>
+                    <div class="section__card--smallest">
+                        <div class="section__placeholder--smallest">
+                        </div>
+                        <div class="section__card__footer">
+                            <h2 class="section__card__title">Mélo Super Nova</h2>
+                            <h2 class="section__card__subtitle">Genre : Classique</h2>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="section__list">
-                <div class="section__row">
-                    <div class="section__card--smallest">
-                        <div class="section__placeholder--smallest">
-                            <div class="section__card__footer">
-                                <h2 class="section__card__title">
-                                    George l'artiste émergeant très prometteur
-                                </h2>
-                                <h2 class="section__card__subtitle">Genre : Pop</h2>
-                            </div>
-                        </div>
-                    </div>
+            <div class="section__card--smallest">
+                <div class="section__placeholder--smallest">
                 </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
-                    <div class="section__card--smallest">
-                        <div class="section__placeholder--smallest">
-                            <div class="section__card__footer">
-                                <h2 class="section__card__title">Mélo Super Nova</h2>
-                                <h2 class="section__card__subtitle">Genre : Classique</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
-                    <div class="section__card--smallest">
-                        <div class="section__placeholder--smallest">
-                            <div class="section__card__footer">
-                                <h2 class="section__card__title">Marie la Kid Synthétique</h2>
-                                <h2 class="section__card__subtitle">Genre : Pop</h2>
-                            </div>
-                        </div>
-                    </div>
+                <div class="section__card__footer">
+                    <h2 class="section__card__title">Marie la Kid Synthétique</h2>
+                    <h2 class="section__card__subtitle">Genre : Pop</h2>
                 </div>
             </div>
         </section>
@@ -211,36 +194,28 @@
                     <div class="section__item">
                         <div class="section__placeholder--round">
                             <p class="section__paragraph">🎫</p>
-                            <div class="section__item__footer">
-                                <h2 class="section__item__title">Standard</h2>
-                                <h2 class="section__item__subtitle--large">50$</h2>
-                            </div>
+                        </div>
+                        <div class="section__item__footer">
+                            <h2 class="section__item__title">Standard</h2>
+                            <h2 class="section__item__subtitle--large">50$</h2>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
                     <div class="section__item">
                         <div class="section__placeholder--round">
                             <p class="section__paragraph">🔖</p>
-                            <div class="section__item__footer">
-                                <h2 class="section__item__title">VIP</h2>
-                                <h2 class="section__item__subtitle--large">100$</h2>
-                            </div>
+                        </div>
+                        <div class="section__item__footer">
+                            <h2 class="section__item__title">VIP</h2>
+                            <h2 class="section__item__subtitle--large">100$</h2>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
                     <div class="section__item">
                         <div class="section__placeholder--round">
                             <p class="section__paragraph">🌟</p>
-                            <div class="section__item__footer">
-                                <h2 class="section__item__title">Passeport 3 jours</h2>
-                                <h2 class="section__item__subtitle--large">120$</h2>
-                            </div>
+                        </div>
+                        <div class="section__item__footer">
+                            <h2 class="section__item__title">Passeport 3 jours</h2>
+                            <h2 class="section__item__subtitle--large">120$</h2>
                         </div>
                     </div>
                 </div>
@@ -262,43 +237,32 @@
                             <h2 class="section__item__title">Tim Hortons</h2>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
                     <div class="section__item">
                         <div class="section__placeholder section__placeholder--round section__placeholder--gray">
                             <img src="./assets/toysrus.png" class="section__img"
                                 alt="Logo de Toys R Us. Des lettres gonflées roses, oranges et vertes avec un R gigantesque troué par une étoile dans sa partie supérieure" />
-                            <div class="section__item__footer">
-                                <h2 class="section__item__title">Toys "R" Us</h2>
-                            </div>
+                        </div>
+                        <div class="section__item__footer">
+                            <h2 class="section__item__title">Toys "R" Us</h2>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
                     <div class="section__item">
                         <div class="section__placeholder section__placeholder--round section__placeholder--gray">
                             <img src="./assets/walmart.png" class="section__img"
                                 alt="Logo de Walmart. Des traits jaunes traçant un cercle, symbolisant des éclats." />
-                            <div class="section__item__footer">
-                                <h2 class="section__item__title">Walmart</h2>
-                            </div>
+                        </div>
+                        <div class="section__item__footer">
+                            <h2 class="section__item__title">Walmart</h2>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list">
-                <div class="section__row">
+
                     <div class="section__item">
                         <div class="section__placeholder section__placeholder--round section__placeholder--gray">
                             <img src="./assets/mcdonald.png" class="section__img"
                                 alt="Logo de McDonald. Un M majuscule gigantesque jaune." />
                         </div>
                         <div class="section__item__footer">
-                        <h2 class="section__item__title">McDonald's</h2>
+                            <h2 class="section__item__title">McDonald's</h2>
                         </div>
                     </div>
                 </div>
@@ -321,19 +285,17 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="section__list--vertical">
-                <div class="section__row--vertical">
-                    <div class="section__article"></div>
-                    <div class="section__article__header">
-                        <h2 class="section__article__title">Marco</h2>
-                        <p class="section__article__subtitle">
-                            Des artistes de haut niveau et une organisation parfaite.
-                        </p>
+                    <div class="section__article">
+                        <div class="section__article__header">
+                            <h2 class="section__article__title">Marco</h2>
+                            <p class="section__article__subtitle">
+                                Des artistes de haut niveau et une organisation parfaite.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
         <section class="section">
             <div class="section__header">
@@ -364,7 +326,7 @@
     </main>
     <footer class="footer">
         <nav class="footer__nav">
-            <button class="nav__button">Obtenez vos billets</button>
+            <button class="button__cta--left">Obtenez vos billets</button>
             <a href="#">Politique de confidentialité</a>
             <a href="#">Conditions d'utilisation</a>
             <a href="#">© 2023 Festival Lumière Urbaine</a>
