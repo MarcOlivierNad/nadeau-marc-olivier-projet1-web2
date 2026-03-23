@@ -15,13 +15,13 @@
             <h2 class="header__site-title">Lumière Urbaine</h2>
         </div>
         <nav class="header__nav">
-            <a href="#" class="nav__elements">Programmation</a>
-            <a href="#" class="nav__elements">Horaire</a>
-            <a href="#" class="nav__elements">Artistes</a>
-            <a href="#" class="nav__elements">Billets</a>
-            <a href="#" class="nav__elements">Partenaires</a>
-            <a href="#" class="nav__elements">Témoignages</a>
-            <a href="#" class="nav__elements">Contact</a>
+            <a href="#programmation" class="nav__elements">Programmation</a>
+            <a href="#horaire" class="nav__elements">Horaire</a>
+            <a href="#artistes" class="nav__elements">Artistes</a>
+            <a href="#billets" class="nav__elements">Billets</a>
+            <a href="#partenaires" class="nav__elements">Partenaires</a>
+            <a href="#témoignages" class="nav__elements">Témoignages</a>
+            <a href="#contact" class="nav__elements">Contact</a>
         </nav>
         <button class="button__cta">Obtenez vos billets</button>
     </header>
@@ -31,7 +31,7 @@
             <h2 class="hero__subtitle">3 jours de musique et d'art immersif</h2>
             <div class="hero__button">
                 <button class="button__secondary">En savoir plus</button>
-                <button class="button__cta--large button__secondary">
+                <button class="button__primary">
                     Acheter des billets
                 </button>
             </div>
@@ -39,7 +39,7 @@
     </section>
 
     <main>
-        <section class="section">
+        <section class="section" id="programmation">
             <div class="section__header">
                 <h2 class="section__title">Programmation</h2>
             </div>
@@ -87,9 +87,9 @@
                 </div>
             </div>
         </section>
-        <section class="section--blue section--side">
+        <section class="section--blue section--side" id="horaire">
             <div class="section__header--side">
-                <h2 class="section__title">Horaire</h2>
+                <h2 class="section__title section__title--black">Horaire</h2>
                 <h2 class="section__subtitle">
                     Consultez notre horaire des performances.
                 </h2>
@@ -136,7 +136,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section" id="artistes">
             <div class="section__header">
                 <h2 class="section__title">Artistes</h2>
             </div>
@@ -155,43 +155,45 @@
                             <h2 class="section__card__subtitle">Genre : Folk</h2>
                         </div>
                     </div>
-                <div class="section__card section__card--smallest">
-                    <div class="section__placeholder section__placeholder--smallest">
-                        <img src="./assets/boy-george.jpg"
-                            alt="Chanteur habillé de vêtements aux couleurs de l'arc-en-ciel, maquillé, tenant un micro"
-                            class="section__img--smallest">
+                    <div class="section__card section__card--smallest">
+                        <div class="section__placeholder section__placeholder--smallest">
+                            <img src="./assets/boy-george.jpg"
+                                alt="Chanteur habillé de vêtements aux couleurs de l'arc-en-ciel, maquillé, tenant un micro"
+                                class="section__img--smallest">
+                        </div>
+                        <div class="section__card__footer--smallest">
+                            <h2 class="section__card__title section__card__title--2">
+                                George l'artiste émergent très prometteur
+                            </h2>
+                            <h2 class="section__card__subtitle section__card__subtitle--2">Genre : Pop</h2>
+                        </div>
                     </div>
-                    <div class="section__card__footer--smallest">
-                        <h2 class="section__card__title section__card__title--2">
-                            George l'artiste émergent très prometteur
-                        </h2>
-                        <h2 class="section__card__subtitle section__card__subtitle--2">Genre : Pop</h2>
+                    <div class="section__card section__card--smallest">
+                        <div class="section__placeholder--smallest">
+                            <img src="./assets/super-nova.jpg" alt="Personne déguisée en Super Nova à une convention"
+                                class="section__img--smallest2">
+                        </div>
+                        <div class="section__card__footer">
+                            <h2 class="section__card__title">Mélo Super Nova</h2>
+                            <h2 class="section__card__subtitle">Genre : Classique</h2>
+                        </div>
+                    </div>
+                    <div class="section__card section__card--smallest">
+                        <div class="section__placeholder--smallest">
+                            <img src="./assets/marie-la-kid.jpg" alt="Femme sur un fond vert"
+                                class="section__img--smallest3">
+                        </div>
+                        <div class="section__card__footer">
+                            <h2 class="section__card__title">Marie la Kid Synthétique</h2>
+                            <h2 class="section__card__subtitle">Genre : Pop</h2>
+                        </div>
                     </div>
                 </div>
-                <div class="section__card section__card--smallest">
-                    <div class="section__placeholder--smallest">
-                        <img src="./assets/super-nova.jpg" alt="Personne déguisée en Super Nova à une convention" class="section__img--smallest2">
-                    </div>
-                    <div class="section__card__footer">
-                        <h2 class="section__card__title">Mélo Super Nova</h2>
-                        <h2 class="section__card__subtitle">Genre : Classique</h2>
-                    </div>
-                </div>
-                <div class="section__card section__card--smallest">
-                    <div class="section__placeholder--smallest">
-                        <img src="./assets/marie-la-kid.jpg" alt="Femme sur un fond vert" class="section__img--smallest3">
-                    </div>
-                    <div class="section__card__footer">
-                        <h2 class="section__card__title">Marie la Kid Synthétique</h2>
-                        <h2 class="section__card__subtitle">Genre : Pop</h2>
-                    </div>
-                </div>
-            </div>
             </div>
         </section>
-        <section class="section--blue">
+        <section class="section--blue" id="billets">
             <div class="section__header">
-                <h2 class="section__title">Billets</h2>
+                <h2 class="section__title section__title--black">Billets</h2>
             </div>
             <div class="section__list">
                 <div class="section__row">
@@ -225,10 +227,10 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section" id="partenaires">
             <div class="section__header">
-                <h2 class="section__title--black">Partenaires</h2>
-                <h2 class="section__subtitle--centered">Nos précieux partenaires.</h2>
+                <h2 class="section__title section__title--black">Partenaires</h2>
+                <h2 class=" section__subtitle section__subtitle--centered">Nos précieux partenaires.</h2>
             </div>
             <div class="section__list">
                 <div class="section__row">
@@ -272,9 +274,9 @@
                 </div>
             </div>
         </section>
-        <section class="section--blue">
-            <div class="section__header">
-                <h2 class="section__title section__title--side section__title--black">
+        <section class="section--blue section--side" id="témoignages">
+            <div class="section__header--side">
+                <h2 class="section__title section__title--black section__title--side">
                     Témoignages
                 </h2>
                 <h2 class="section__subtitle">Écoutez ce que les gens disent!</h2>
@@ -282,17 +284,23 @@
             <div class="section__list--vertical">
                 <div class="section__row--vertical">
                     <div class="section__article">
+                      <div class="section__placeholder--square">
+                        <img src="./assets/photo-profil-anne.jpg" alt="Ruelle durant le printemps" class="section__img--void-square">
+                      </div>
                         <div class="section__article__header">
-                            <h2 class="section__article__title">Anne</h2>
-                            <p class="section__article__subtitle">
+                            <h2 class="section__card__title section__article__title">Anne</h2>
+                            <p class="section__card__subtitle section__article__subtitle">
                                 Un festival incroyable avec une ambiance électrisante!
                             </p>
                         </div>
                     </div>
                     <div class="section__article">
+                      <div class="section__placeholder--square">
+                        <img src="./assets/photo-profil-marco.jpg" alt="Selfie d'un jeune adulte assis sur une chaise de bureau et portant un casque d'écoute sur la tête" class="section__img--void-square">
+                      </div>
                         <div class="section__article__header">
-                            <h2 class="section__article__title">Marco</h2>
-                            <p class="section__article__subtitle">
+                            <h2 class="section__card__title section__article__title">Marc</h2>
+                            <p class="section__card__subtitle section__article__subtitle">
                                 Des artistes de haut niveau et une organisation parfaite.
                             </p>
                         </div>
@@ -300,39 +308,47 @@
                 </div>
             </div>
         </section>
-        <section class="section">
-            <div class="section__header">
-                <h2 class="section__title--side">Contact</h2>
-                <h2 class="section__subtitle--blue">
+        <section class="section--side" id="Contact">
+            <div class="section__header--side">
+                <h2 class="section__title section__title--side">Contact</h2>
+                <h2 class="section__subtitle section__subtitle--blue">
                     Nous aimerions avoir de vos nouvelles !
                 </h2>
             </div>
             <div class="section__list--form">
-                <div class="section__row--form">
-                    <form class="form">
-                        <label>Nom</label>
-                        <input type="text" placeholder="Entrez votre nom" class="form__placeholder" />
-                        <label>Email</label>
-                        <input type="text" placeholder="Entrez votre email" class="form__placeholder" />
-                        <label>Message</label>
-                        <input type="text" placeholder="Écrivez votre message ici" class="form__placeholder" />
+                      <div class="section__row--form">
+                        <div class="form__input">
+                          <label>Nom</label>
+                          <input type="text" placeholder="Entrez votre nom"/>
+                          </div>
+                        </div>
+                      <div class="section__row--form">
+                        <div class="form__input">
+                          <label>Email</label>
+                          <input type="text" placeholder="Entrez votre email"/>
+                          </div>
+                        </div>
+                      <div class="section__row--form">
+                        <div class="form__input">
+                          <label>Message</label>
+                          <input type="text" placeholder="Entrez votre message ici"/>
+                          </div>
+                        </div>
                         <div class="form__button">
-                            <button class="button__secondary button__secondary--white button__secondary--outline-cyan">
+                            <button class="button__secondary button__secondary--transparent button__secondary--outline-cyan">
                                 Annuler
                             </button>
-                            <button class="button__primary--darker">Envoyer</button>
+                            <button class="button__primary button__primary--darker">Envoyer</button>
                         </div>
-                    </form>
                 </div>
-            </div>
         </section>
     </main>
     <footer class="footer">
         <nav class="footer__nav">
-            <button class="button__cta--left">Obtenez vos billets</button>
-            <a href="#">Politique de confidentialité</a>
-            <a href="#">Conditions d'utilisation</a>
-            <a href="#">© 2023 Festival Lumière Urbaine</a>
+            <button class="button__cta">Obtenez vos billets</button>
+            <a href="#" class="nav__elements">Politique de confidentialité</a>
+            <a href="#" class="nav__elements">Conditions d'utilisation</a>
+            <a href="#" class="nav__elements">© 2023 Festival Lumière Urbaine</a>
         </nav>
     </footer>
 </body>
