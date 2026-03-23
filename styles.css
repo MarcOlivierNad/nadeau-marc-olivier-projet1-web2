@@ -39,7 +39,6 @@
     --radius-lg: 3.125rem;
     --radius-full: 9999rem;
 
-    /* Aucune variable bordure, car une seule est présente sur toute la page*/
 
     /* ===== LARGEUR ===== */
     --width-xs: 1rem;
@@ -211,7 +210,7 @@ body {
 .button__secondary {
     display: flex;
     width: var(--width-lg);
-    padding: var(--space-xs);
+    padding: clamp(var(--space-2xs), var(--space-xs), var(--space-sm));
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -233,7 +232,7 @@ body {
     height: var(--height-md);
     display: flex;
     width: var(--width-lg);
-    padding: var(--space-xs);
+    padding: clamp(var(--space-2xs), var(--space-xs), var(--space-sm));
     justify-content: center;
     align-items: center;
     border-radius: var(--radius-md);
@@ -247,7 +246,8 @@ body {
     height: var(--height-md);
 }
 
-.section {
+.section { /* Conteneur pour toutes les sections qui suivent sur la page sauf les deux dernières. Variantes side dans le cas d'une orientation d'une section en row et bleu pour les 
+    sections qui ont un arrière-plan bleu.*/
     display: flex;
     padding: var(--space-md);
     flex-direction: column;
@@ -481,6 +481,7 @@ body {
     font-size: var(--font-size-sm);
     font-weight: var(--font-weight-semibold);
     line-height: var(--space-sm);
+    width: calc(90% - 4px);
     align-items: flex-start;
 
 }
@@ -488,9 +489,10 @@ body {
 .section__article__subtitle {
     margin: 4px 0 0 0;
     padding: 0;
+    color: var(--color-primary-800);
     font-size: var(--font-size-xs);
     font-weight: var(--font-weight-light);
-    color: var(--color-primary-800);
+    width: calc(90% - 4px);
     white-space: nowrap;
     min-height: auto;
 }
@@ -665,6 +667,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 0.75rem;
+    width: calc(67% - 3px);
 }
 
 label {
